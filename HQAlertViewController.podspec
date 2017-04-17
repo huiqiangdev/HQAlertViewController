@@ -3,9 +3,9 @@ version = "0.0.1";
 Pod::Spec.new do |s|
   s.name         = "HQAlertViewController"
   s.version      = version
-  s.summary      = " an alertView"
+  s.summary      = "an alertView used in register"
   s.description  = <<-DESC
-                      a simple alertView common used in register. 
+                      a simple alertView common used in register.  
                        DESC
   s.homepage     = "https://github.com/huiqiangdev/HQAlertViewController"
   s.license      = { :type => "MIT", :file => "LICENSE" }
