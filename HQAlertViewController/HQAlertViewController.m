@@ -7,7 +7,7 @@
 //
 
 #import "HQAlertViewController.h"
-#import <Masonry.h>
+#import "HQAlertHeader.h"
 #define HQBLOCK_EXEC(block, ...) if (block) { block(__VA_ARGS__);};
 
 @interface HQAlertViewController ()
