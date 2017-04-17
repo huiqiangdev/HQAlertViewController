@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2F6360990DEAB6852474A42C0F3ED3BA'
+               BlueprintIdentifier = 'C88B35FF7CBBBCD37E4668066A047167'
                BlueprintName = 'Pods-HQAlertViewControllerDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-HQAlertViewControllerDemo.a'>

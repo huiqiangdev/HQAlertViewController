@@ -6,5 +6,5 @@ target 'HQAlertViewControllerDemo' do
   # use_frameworks!
 
   # Pods for HQAlertViewControllerDemo
-  pod 'Masonry'
+
 end
