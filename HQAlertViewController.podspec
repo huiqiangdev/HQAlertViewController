@@ -14,8 +14,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.0"
   s.requires_arc = true
   s.framework    = "UIKit"
-  s.dependency 'Masonry' 
   s.source       = { :git => "https://github.com/huiqiangdev/HQAlertViewController.git", :tag => "#{s.version}" }
   s.source_files = "HQAlertViewController", "HQAlertViewController/*.{h}","HQAlertViewController/**/*.{h,m}"
   #s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  s.public_header_files = 'HQAlertViewController/*.h
+  s.dependency 'Masonry' 
 end
