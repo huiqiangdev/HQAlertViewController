@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33C2646AC0FB33CBAEF4CE26 /* libPods-HQAlertViewControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A80EC3C3AB81720601DF00 /* libPods-HQAlertViewControllerDemo.a */; };
+		5E760ED91EA4D92B007ADB5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E760ED81EA4D92B007ADB5D /* main.m */; };
+		5E760EDC1EA4D92B007ADB5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E760EDB1EA4D92B007ADB5D /* AppDelegate.m */; };
+		5E760EDF1EA4D92B007ADB5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E760EDE1EA4D92B007ADB5D /* ViewController.m */; };
+		5E760EE21EA4D92B007ADB5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E760EE01EA4D92B007ADB5D /* Main.storyboard */; };
+		5E760EE41EA4D92B007ADB5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E760EE31EA4D92B007ADB5D /* Assets.xcassets */; };
+		5E760EE71EA4D92B007ADB5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E760EE51EA4D92B007ADB5D /* LaunchScreen.storyboard */; };
+		5E760EF11EA4D96E007ADB5D /* HQAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E760EF01EA4D96E007ADB5D /* HQAlertViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E760ED41EA4D92B007ADB5D /* HQAlertViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQAlertViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E760ED81EA4D92B007ADB5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E760EDA1EA4D92B007ADB5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E760EDB1EA4D92B007ADB5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E760EDD1EA4D92B007ADB5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E760EDE1EA4D92B007ADB5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E760EE11EA4D92B007ADB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E760EE31EA4D92B007ADB5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E760EE61EA4D92B007ADB5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E760EE81EA4D92B007ADB5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E760EEF1EA4D96E007ADB5D /* HQAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQAlertViewController.h; sourceTree = "<group>"; };
+		5E760EF01EA4D96E007ADB5D /* HQAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQAlertViewController.m; sourceTree = "<group>"; };
+		78A80EC3C3AB81720601DF00 /* libPods-HQAlertViewControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQAlertViewControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A477F9A5CCCA8B9BFD0C752B /* Pods-HQAlertViewControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQAlertViewControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQAlertViewControllerDemo/Pods-HQAlertViewControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E49C7C547615351C8B333B0C /* Pods-HQAlertViewControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQAlertViewControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQAlertViewControllerDemo/Pods-HQAlertViewControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E760ED11EA4D92B007ADB5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C2646AC0FB33CBAEF4CE26 /* libPods-HQAlertViewControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E760ECB1EA4D92A007ADB5D = {
+			isa = PBXGroup;
+			children = (
+				5E760ED61EA4D92B007ADB5D /* HQAlertViewControllerDemo */,
+				5E760ED51EA4D92B007ADB5D /* Products */,
+				C614E236AE986BEF911362A5 /* Pods */,
+				6D2CEDFC375FE8E8C64C7FE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E760ED51EA4D92B007ADB5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E760ED41EA4D92B007ADB5D /* HQAlertViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E760ED61EA4D92B007ADB5D /* HQAlertViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5E760EEE1EA4D959007ADB5D /* HQAlertViewController */,
+				5E760EDA1EA4D92B007ADB5D /* AppDelegate.h */,
+				5E760EDB1EA4D92B007ADB5D /* AppDelegate.m */,
+				5E760EDD1EA4D92B007ADB5D /* ViewController.h */,
+				5E760EDE1EA4D92B007ADB5D /* ViewController.m */,
+				5E760EE01EA4D92B007ADB5D /* Main.storyboard */,
+				5E760EE31EA4D92B007ADB5D /* Assets.xcassets */,
+				5E760EE51EA4D92B007ADB5D /* LaunchScreen.storyboard */,
+				5E760EE81EA4D92B007ADB5D /* Info.plist */,
+				5E760ED71EA4D92B007ADB5D /* Supporting Files */,
+			);
+			path = HQAlertViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		5E760ED71EA4D92B007ADB5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E760ED81EA4D92B007ADB5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E760EEE1EA4D959007ADB5D /* HQAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5E760EEF1EA4D96E007ADB5D /* HQAlertViewController.h */,
+				5E760EF01EA4D96E007ADB5D /* HQAlertViewController.m */,
+			);
+			name = HQAlertViewController;
+			path = ../../HQAlertViewController;
+			sourceTree = "<group>";
+		};
+		6D2CEDFC375FE8E8C64C7FE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78A80EC3C3AB81720601DF00 /* libPods-HQAlertViewControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C614E236AE986BEF911362A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E49C7C547615351C8B333B0C /* Pods-HQAlertViewControllerDemo.debug.xcconfig */,
+				A477F9A5CCCA8B9BFD0C752B /* Pods-HQAlertViewControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E760ED31EA4D92B007ADB5D /* HQAlertViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E760EEB1EA4D92B007ADB5D /* Build configuration list for PBXNativeTarget "HQAlertViewControllerDemo" */;
+			buildPhases = (
+				22460C6617794E7834D4CF6D /* [CP] Check Pods Manifest.lock */,
+				5E760ED01EA4D92B007ADB5D /* Sources */,
+				5E760ED11EA4D92B007ADB5D /* Frameworks */,
+				5E760ED21EA4D92B007ADB5D /* Resources */,
+				4DB00217F3268AE4F05EBF1A /* [CP] Embed Pods Frameworks */,
+				0EB7DCC91D321AD3EE40EFA9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQAlertViewControllerDemo;
+			productName = HQAlertViewControllerDemo;
+			productReference = 5E760ED41EA4D92B007ADB5D /* HQAlertViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E760ECC1EA4D92A007ADB5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "惠强";
+				TargetAttributes = {
+					5E760ED31EA4D92B007ADB5D = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5E760ECF1EA4D92A007ADB5D /* Build configuration list for PBXProject "HQAlertViewControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E760ECB1EA4D92A007ADB5D;
+			productRefGroup = 5E760ED51EA4D92B007ADB5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E760ED31EA4D92B007ADB5D /* HQAlertViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E760ED21EA4D92B007ADB5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E760EE71EA4D92B007ADB5D /* LaunchScreen.storyboard in Resources */,
+				5E760EE41EA4D92B007ADB5D /* Assets.xcassets in Resources */,
+				5E760EE21EA4D92B007ADB5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EB7DCC91D321AD3EE40EFA9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQAlertViewControllerDemo/Pods-HQAlertViewControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22460C6617794E7834D4CF6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB00217F3268AE4F05EBF1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQAlertViewControllerDemo/Pods-HQAlertViewControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E760ED01EA4D92B007ADB5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E760EDF1EA4D92B007ADB5D /* ViewController.m in Sources */,
+				5E760EDC1EA4D92B007ADB5D /* AppDelegate.m in Sources */,
+				5E760EF11EA4D96E007ADB5D /* HQAlertViewController.m in Sources */,
+				5E760ED91EA4D92B007ADB5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E760EE01EA4D92B007ADB5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E760EE11EA4D92B007ADB5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E760EE51EA4D92B007ADB5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E760EE61EA4D92B007ADB5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E760EE91EA4D92B007ADB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5E760EEA1EA4D92B007ADB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E760EEC1EA4D92B007ADB5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E49C7C547615351C8B333B0C /* Pods-HQAlertViewControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HQAlertViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiqiang.test.HQAlertViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E760EED1EA4D92B007ADB5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A477F9A5CCCA8B9BFD0C752B /* Pods-HQAlertViewControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HQAlertViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huiqiang.test.HQAlertViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E760ECF1EA4D92A007ADB5D /* Build configuration list for PBXProject "HQAlertViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E760EE91EA4D92B007ADB5D /* Debug */,
+				5E760EEA1EA4D92B007ADB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E760EEB1EA4D92B007ADB5D /* Build configuration list for PBXNativeTarget "HQAlertViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E760EEC1EA4D92B007ADB5D /* Debug */,
+				5E760EED1EA4D92B007ADB5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E760ECC1EA4D92A007ADB5D /* Project object */;
+}
