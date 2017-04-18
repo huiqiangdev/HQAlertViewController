@@ -39,9 +39,7 @@
 *   3.导入 HQAlertViewController.h
 
 ##  Tips
-*   1.如果发现pod search XHWebImageAutoSize 搜索出来的不是最新版本，需要在终端执行cd ~/desktop退回到desktop，然后执行pod setup命令更新本地spec缓存（需要几分钟），然后再搜索就可以了
-*   2.如果你发现你执行pod install后,导入的不是最新版本,请删除Podfile.lock文件,在执行一次 pod install
-*   3.如果在使用过程中遇到BUG，希望你能Issues我，谢谢（或者尝试下载最新的代码看看BUG修复没有）
+*   使用中有什么问题可以在github中联系我，也可以加我QQ **805376471**
 
 ##  系统要求
 *   该项目最低支持 iOS 7.0 和 Xcode 7.0
