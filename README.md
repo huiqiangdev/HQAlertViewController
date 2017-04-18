@@ -1,4 +1,5 @@
 # 项目中遇到的一个弹框
+## 项目中使用Masonry 布局，所以要导入Masonry
 ###如下图所示
 
 ![](snap_images.png)
@@ -28,7 +29,7 @@
 
 ```
 ##  安装
-### 1.手动添加:<br>
+### 1.手动添加:==推荐==<br> 
 *   1.将 HQAlertViewController 文件夹添加到工程目录中<br>
 *   2.导入 HQAlertViewController.h
 
